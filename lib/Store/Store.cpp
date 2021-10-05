@@ -45,6 +45,10 @@ void Store::setValueToEEPROM(uint32_t value)
         EEPROM.writeByte(0, 1);
         EEPROM.writeUInt(1, value);
         EEPROM.commit();
+        Serial.println("Setting value to EEPROM: " + String(value));
     }
-    Serial.println("Setting value to EEPROM: " + String(value));
+    else
+    {
+        Serial.println("Value already saved in EEPROM: " + String(value));
+    }
 }

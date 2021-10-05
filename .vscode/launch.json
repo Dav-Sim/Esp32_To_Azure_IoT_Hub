@@ -12,7 +12,7 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "C:/Users/CZSimaneDa1/source/Workspaces/GIT/Esp32Azure/.pio/build/esp32cam/firmware.elf",
+            "executable": "C:/Users/CZSimaneDa1/source/Workspaces/GitHub/Esp32Azure/.pio/build/esp32cam/firmware.elf",
             "projectEnvName": "esp32cam",
             "toolchainBinDir": "C:/Users/CZSimaneDa1/.platformio/packages/toolchain-xtensa32/bin",
             "internalConsoleOptions": "openOnSessionStart",
@@ -25,7 +25,7 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "C:/Users/CZSimaneDa1/source/Workspaces/GIT/Esp32Azure/.pio/build/esp32cam/firmware.elf",
+            "executable": "C:/Users/CZSimaneDa1/source/Workspaces/GitHub/Esp32Azure/.pio/build/esp32cam/firmware.elf",
             "projectEnvName": "esp32cam",
             "toolchainBinDir": "C:/Users/CZSimaneDa1/.platformio/packages/toolchain-xtensa32/bin",
             "internalConsoleOptions": "openOnSessionStart"
