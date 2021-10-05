@@ -33,3 +33,12 @@ The configuration is stored in the EEPROM of the device. The EEPROM.h library is
 
 ### MQTT connection to Azure
 The connection to the Azure IoT hub is realized using the library: https://github.com/VSChina/ESP32_AzureIoT_Arduino 
+
+### Complete solution Device - Azure - On-premise
+Here is one of many possible solutions.
+This concept is made of Azure IoT Hub, Azure Storage account, Device/s, and On-premise web app, local db and local services.
+- Messages from device goes to Azure, and than through Event processor (local app) to local database (and can be processed at that time (eg. alarm...)). They can be traced to Azure Blob Storage too.
+- Messages from local web app goes through Service Client (local app) to Azure IoT Hub and than to addressed device.
+
+![Device to Azure diagram](/media/AzureDiagramSimple.png "Device to Azure diagram")
+
